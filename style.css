@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+.container {
+    background-color: black;
+    width: 250px;
+    padding: 20px;
+    min-height: 150px;
+    margin: 50px auto;
+}
+.container .Datecurrent{ 
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 12px;
+}
+.container .digital-clock {
+    background-color: rgba(58, 56, 56, 0.41);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+}
